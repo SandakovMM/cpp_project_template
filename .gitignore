@@ -1,0 +1,8 @@
+*.o
+*.obj
+
+CMakeFiles
+CMakeCache.txt
+
+test/googletest
+test/gmock
