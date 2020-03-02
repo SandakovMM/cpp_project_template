@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.2)
 
 project(NAME_OF_PROJECT)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES
+    main.cpp
+    generator.cpp)
 
 add_executable(project ${SOURCE_FILES})
 

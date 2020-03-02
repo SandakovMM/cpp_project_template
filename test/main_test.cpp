@@ -1,9 +1,9 @@
 #include <gtest/gtest.h>
-#include "gmock/gmock.h"
+#include <gmock/gmock.h>
 
-#include "main.h"
+#include "generator.h"
 
-TEST(CHECK_HELLO_FUNCTIO)
+TEST(CHECK_MAIN, CHECK_STRING_GENERATOR)
 {
     EXPECT_EQ("Hello world", gen_string_function());
 }

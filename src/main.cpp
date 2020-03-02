@@ -1,9 +1,6 @@
-#include "iostream"
+#include <iostream>
 
-std::string gen_string_function()
-{
-    return "Hello world";
-}
+#include "generator.h"
 
 int main()
 {
